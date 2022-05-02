@@ -1,0 +1,19 @@
+.PokeSearch {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  input {
+    padding-left: 1rem;
+    width: 85%;
+    height: 2.6rem;
+    font-size: 1.6rem;
+    color: #442f7e;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: #442f7e;
+  }
+}
