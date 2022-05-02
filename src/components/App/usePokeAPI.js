@@ -27,7 +27,6 @@ function usePokemonAPI() {
     } catch (e) {}
   }, []);
 
-  console.log(pokemons);
   return { pokemons };
 }
 
