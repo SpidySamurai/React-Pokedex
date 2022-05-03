@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-cura-deuda/static/css/main.c19d44e7.css",
-    "main.js": "/react-cura-deuda/static/js/main.395a3a7a.js",
+    "main.css": "/react-cura-deuda/static/css/main.78dfd2ac.css",
+    "main.js": "/react-cura-deuda/static/js/main.a8b4d8ff.js",
     "index.html": "/react-cura-deuda/index.html",
-    "main.c19d44e7.css.map": "/react-cura-deuda/static/css/main.c19d44e7.css.map",
-    "main.395a3a7a.js.map": "/react-cura-deuda/static/js/main.395a3a7a.js.map"
+    "main.78dfd2ac.css.map": "/react-cura-deuda/static/css/main.78dfd2ac.css.map",
+    "main.a8b4d8ff.js.map": "/react-cura-deuda/static/js/main.a8b4d8ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.c19d44e7.css",
-    "static/js/main.395a3a7a.js"
+    "static/css/main.78dfd2ac.css",
+    "static/js/main.a8b4d8ff.js"
   ]
 }
