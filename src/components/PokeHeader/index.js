@@ -4,12 +4,12 @@ import "./PokeHeader.scss";
 function PokeHeader(props) {
   return (
     <header className="PokeHeader">
-      {/* <div className="PokeHeader-wrapper"></div> */}
-      <nav>
-        <a href="#">Pokedex</a>
-        {/* <a href="#">Autor</a> */}
-      </nav>
-      {props.children}
+      <div className="PokeHeader-wrapper">
+        <nav>
+          <a href="#">Pokedex</a>
+        </nav>
+        {props.children}
+      </div>
     </header>
   );
 }
