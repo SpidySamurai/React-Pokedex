@@ -35,10 +35,11 @@
   }
   .Poketypes {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     gap: 1.6rem;
   }
+
   .type {
     display: flex;
     justify-content: center;
@@ -49,10 +50,71 @@
     text-align: center;
     border-radius: 0.4rem;
   }
-  .main-type {
-    background-color: rgb(6, 185, 6);
+
+  .normal {
+    background-color: #a8a77a;
   }
-  .sub-type {
-    background-color: rgb(173, 35, 173);
+  .grass {
+    background-color: #7ac74c;
+  }
+
+  .poison {
+    background-color: #a33ea1;
+  }
+
+  .fire {
+    background-color: #ee8130;
+  }
+
+  .water {
+    background-color: #6390f0;
+  }
+
+  .flying {
+    background-color: #a98ff3;
+  }
+
+  .bug {
+    background-color: #a6b91a;
+  }
+
+  .electric {
+    background-color: #f7d02c;
+  }
+
+  .ground {
+    background-color: #e2bf65;
+  }
+
+  .rock {
+    background-color: #b6a136;
+  }
+
+  .fairy {
+    background-color: #d685ad;
+  }
+
+  .fighting {
+    background-color: #c22e28;
+  }
+
+  .psychic {
+    background-color: #f95587;
+  }
+
+  .steel {
+    background-color: #b7b7ce;
+  }
+
+  .ice {
+    background-color: #96d9d6;
+  }
+
+  .ghost {
+    background-color: #735797;
+  }
+
+  .dragon {
+    background-color: #6f35fc;
   }
 }
