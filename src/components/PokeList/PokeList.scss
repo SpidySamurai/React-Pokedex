@@ -1,4 +1,9 @@
 .PokeList--container {
+  .PokeList--loading {
+    font-size: 2rem;
+    color: #442f7e;
+    font-weight: bold;
+  }
   ul {
     display: flex;
     justify-content: center;
