@@ -30,7 +30,7 @@ function usePokemonAPI() {
       } catch (e) {
         console.log("There was an error fetching");
       }
-    }, 3000);
+    }, 1000);
   }, []);
 
   return { pokemons, loading };

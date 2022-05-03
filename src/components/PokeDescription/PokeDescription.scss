@@ -1,0 +1,101 @@
+section a:nth-child(1) {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #442f7e;
+  margin-left: 1.6rem;
+}
+
+.PokeDescription {
+  width: 90%;
+  max-width: 100rem;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: #ff1f55;
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+
+  &__img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+    &__name__number {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.8rem;
+      }
+    }
+    figure {
+      background-color: white;
+      margin: 0 auto;
+      width: 85%;
+      height: 85%;
+      border-radius: 0.8rem;
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+      max-width: 95rem;
+    }
+  }
+  &__description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    &__description {
+    }
+    &__specs {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.6rem;
+      margin: 2rem;
+      padding: 2rem;
+      background-color: #d11b45;
+      border-radius: 0.8rem;
+      div {
+        width: 45%;
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1.6rem;
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .PokeDescription {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    &__img-container {
+      width: 45%;
+    }
+    &__description-container {
+      width: 55%;
+      &__description-container {
+        &__specs {
+          flex-direction: row;
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

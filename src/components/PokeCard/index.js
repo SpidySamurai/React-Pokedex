@@ -1,14 +1,21 @@
 import React from "react";
 import "./PokeCard.scss";
+import { Link, Route } from "react-router-dom";
 
 function PokeCard(props) {
   return (
     <li className="PokeCard--container">
       <h2 className="Pokemon-number">N.{props.pokeNumber}</h2>
       <figure>
-        <a href="#">
+        <Link
+          to={`/pokemon/${props.pokeName}`}
+          onClick={() => {
+            props.setPokemon(props.pokemon);
+            console.log(props.pokemon.sprites);
+          }}
+        >
           <img src={props.pokeImg} alt={props.pokeName} loading="lazy"></img>
-        </a>
+        </Link>
       </figure>
       <h2 className="Pokemon-name">{props.pokeName}</h2>
       <div className="Poketypes">

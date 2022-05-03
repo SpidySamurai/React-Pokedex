@@ -33,88 +33,90 @@
       }
     }
   }
-  .Poketypes {
-    display: flex;
-    // justify-content: center;
-    align-items: center;
-    gap: 1.6rem;
-  }
+}
 
-  .type {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 2rem;
-    font-size: 1.4rem;
-    text-align: center;
-    border-radius: 0.4rem;
-  }
+.Poketypes {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
 
-  .normal {
-    background-color: #a8a77a;
-  }
-  .grass {
-    background-color: #7ac74c;
-  }
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.4rem;
+}
 
-  .poison {
-    background-color: #a33ea1;
-  }
+.normal {
+  background-color: #a8a77a;
+}
+.grass {
+  background-color: #7ac74c;
+}
 
-  .fire {
-    background-color: #ee8130;
-  }
+.poison {
+  background-color: #a33ea1;
+}
 
-  .water {
-    background-color: #6390f0;
-  }
+.fire {
+  background-color: #ee8130;
+}
 
-  .flying {
-    background-color: #a98ff3;
-  }
+.water {
+  background-color: #6390f0;
+}
 
-  .bug {
-    background-color: #a6b91a;
-  }
+.flying {
+  background-color: #a98ff3;
+}
 
-  .electric {
-    background-color: #f7d02c;
-  }
+.bug {
+  background-color: #a6b91a;
+}
 
-  .ground {
-    background-color: #e2bf65;
-  }
+.electric {
+  background-color: #f7d02c;
+}
 
-  .rock {
-    background-color: #b6a136;
-  }
+.ground {
+  background-color: #e2bf65;
+}
 
-  .fairy {
-    background-color: #d685ad;
-  }
+.rock {
+  background-color: #b6a136;
+}
 
-  .fighting {
-    background-color: #c22e28;
-  }
+.fairy {
+  background-color: #d685ad;
+}
 
-  .psychic {
-    background-color: #f95587;
-  }
+.fighting {
+  background-color: #c22e28;
+}
 
-  .steel {
-    background-color: #b7b7ce;
-  }
+.psychic {
+  background-color: #f95587;
+}
 
-  .ice {
-    background-color: #96d9d6;
-  }
+.steel {
+  background-color: #b7b7ce;
+}
 
-  .ghost {
-    background-color: #735797;
-  }
+.ice {
+  background-color: #96d9d6;
+}
 
-  .dragon {
-    background-color: #6f35fc;
-  }
+.ghost {
+  background-color: #735797;
+}
+
+.dragon {
+  background-color: #6f35fc;
 }
