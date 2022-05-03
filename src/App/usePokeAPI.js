@@ -2,6 +2,7 @@ import React from "react";
 
 const API = "https://pokeapi.co/api/v2/pokemon?limit=151";
 function usePokemonAPI() {
+  const [loading, setLoading] = React.useState(true);
   const [pokemons, setPokemons] = React.useState([]);
 
   const fetchPokemons = async () => {
@@ -22,12 +23,17 @@ function usePokemonAPI() {
   };
 
   React.useEffect(() => {
-    try {
-      fetchPokemons();
-    } catch (e) {}
+    setTimeout(() => {
+      try {
+        fetchPokemons();
+        setLoading(false);
+      } catch (e) {
+        console.log("There was an error fetching");
+      }
+    }, 3000);
   }, []);
 
-  return { pokemons };
+  return { pokemons, loading };
 }
 
 export { usePokemonAPI };

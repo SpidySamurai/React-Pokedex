@@ -2,7 +2,7 @@ import React from "react";
 import { usePokemonAPI } from "./usePokeAPI";
 
 function usePokedex() {
-  const { pokemons } = usePokemonAPI();
+  const { loading, pokemons } = usePokemonAPI();
   const [searchValue, setSearchValue] = React.useState("");
 
   let searchedPokemons = [];
@@ -10,15 +10,15 @@ function usePokedex() {
     searchedPokemons = pokemons;
   } else {
     searchedPokemons = pokemons.filter((pokemon) => {
-      const searchText = searchValue.toLocaleLowerCase();
-      const todoText = pokemon.name.toLowerCase();
-      return todoText.includes(searchText);
+      const searchedText = searchValue.toLocaleLowerCase();
+      const pokeText = pokemon.name.toLowerCase();
+      return pokeText.includes(searchedText);
     });
   }
 
-  searchedPokemons.sort((a, b) => a.id - b.id);
+  searchedPokemons.sort((PokemonA, PokemonB) => PokemonA.id - PokemonB.id);
   console.log(searchedPokemons);
-  return { searchedPokemons };
+  return { loading, searchValue, setSearchValue, searchedPokemons };
 }
 
 export { usePokedex };
