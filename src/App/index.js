@@ -22,7 +22,7 @@ function App() {
       </PokeHeader>
       <main>
         <Router>
-          <Route path="/" exact>
+          <Route path="/react-cura-deuda" exact>
             <PokeList loading={loading} searchedPokemons={searchedPokemons}>
               {(pokemon) => (
                 <PokeCard

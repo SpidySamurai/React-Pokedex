@@ -7,7 +7,7 @@ import { withRouter } from "react-router-dom";
 function PokeDescription({ pokemon }) {
   return (
     <section>
-      <a href="/">Back </a>
+      <a href="/react-cura-deuda">Back </a>
 
       <div className="PokeDescription">
         <div className="PokeDescription__img-container">

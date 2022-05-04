@@ -6,7 +6,7 @@ function PokeHeader(props) {
     <header className="PokeHeader">
       <div className="PokeHeader-wrapper">
         <nav>
-          <a href="/">Pokedex</a>
+          <a href="/react-cura-deuda">Pokedex</a>
         </nav>
         {props.children}
       </div>
